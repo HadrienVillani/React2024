@@ -26,13 +26,13 @@ function CreateArray() {
       style={{ flex: "flex", alignItems: "center", justifyContent: "center" }}
     >
       <button onClick={newElem}>New elements</button>
-      <h2>Unsorted elements</h2>
+      <h4>Unsorted elements</h4>
       <ul>
         {myArray.map((elem, key) => {
           return <li key={key}>{elem}</li>;
         })}
       </ul>
-      <h2>Sorted elements</h2>
+      <h4>Sorted elements</h4>
       <ul>
         <SortedArray array={myArray} />
       </ul>

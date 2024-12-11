@@ -4,6 +4,8 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Button from "./components/button";
 import CreateArray from "./components/createArray";
+import Calculatrice from "./components/Calculatrice";
+import CalculatriceDeux from "./components/CalculatriceDeux";
 
 function App() {
   return (
@@ -32,6 +34,12 @@ function App() {
       <div>
         <h2>ChallengePair</h2>
         <CreateArray />
+      </div>
+      <div>
+        <Calculatrice />
+      </div>
+      <div>
+        <CalculatriceDeux />
       </div>
     </>
   );
